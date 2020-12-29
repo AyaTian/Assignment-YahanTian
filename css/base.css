@@ -1,0 +1,29 @@
+body {
+    font-family:"微软雅黑";
+}
+.clearfix {
+    overflow:hidden;
+}
+.clearfix::after {
+    content:'';
+    display:block;
+    clear:both;
+    
+}
+.db {
+    display:block;
+}
+.dib {
+     display:inline-block;
+}
+.tac {
+    text-align: center;
+}
+.center {
+    margin:0 auto;
+}
+.center-wrap {
+    margin:0 auto;
+    width:1155px;
+    
+}
